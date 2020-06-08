@@ -35,7 +35,7 @@ for line in sys.stdin:
     data = line.strip().split("\t")
 
     # store the 6 elements of the tuple in seperate variables
-    date, time, item, category = data, sales, payment
+    date, time, item, category, sales, payment =data
 
     # Write the key-value combination to standard output (stdout)
     # Key is the payment, value is the sales     
